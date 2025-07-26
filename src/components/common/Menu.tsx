@@ -159,7 +159,7 @@ export default function BasicMenu({
           {item2}
         </MenuItem>
         {storedLoginStatus && (
-          <MenuItem onClick={handleSignOut}>
+          <MenuItem onClick={item3 === "Sign Out" ? handleSignOut : handleClose}>
             {icon3}
             {item3}
           </MenuItem>
