@@ -19,7 +19,7 @@ It fetches **real-time movie and TV data** using the [TMDB API](https://www.them
 ## ✨ Features
 
 - 🔐 **Authentication**: User login & registration
-- 👥 **Multi-Profile System**: Create, edit, and switch between user profiles
+- 👥 **Profile & settings pages fot the user**
 - 🔍 **Advanced Search**: Find movies and TV shows by title or genre
 - 🏠 **Dynamic Home Page**: Includes a hero banner and category sliders
 - 🎬 **Browse Pages**: Explore movies, TV shows, and genre-based categories
