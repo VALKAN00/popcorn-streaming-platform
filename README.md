@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # POPCORN - Streaming Platform
 
 A modern, responsive streaming platform built with **React**, **Axios**, **Tailwind CSS**, **Framer Motion**, **MUI**, **Lucide Icons**, and **React Router**.
