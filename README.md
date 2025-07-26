@@ -1,54 +1,50 @@
-# POPCORN - Streaming Platform
+# 🍿 POPCORN - Streaming Platform
 
-A modern, responsive streaming platform built with **React**, **Axios**, **Tailwind CSS**, **Framer Motion**, **MUI**, **Lucide Icons**, and **React Router**.
+A modern, responsive streaming platform built with **React**, **Axios**, **Tailwind CSS**, **Framer Motion**, **MUI**, **Lucide Icons**, and **React Router**. It delivers a polished user experience inspired by premium movie/TV streaming services.
 
-## Live Demo
+## 🚀 Live Demo
 
-[https://delightful-pasca-08684f.netlify.app/](https://delightful-pasca-08684f.netlify.app/)
+👉 [Visit Live Site](https://delightful-pasca-08684f.netlify.app/)
 
-## Overview
+---
 
-**POPCORN** is a full-featured web application that simulates a premium movie and TV streaming service. It offers a clean, intuitive user interface and rich functionality including authentication, profile management, personalized content lists, and a simulated subscription and billing experience.
+## 📸 Overview
 
-The platform fetches **real-time movie and TV data** from the [TMDB (The Movie Database) API](https://www.themoviedb.org/documentation/api), providing up-to-date content details, images, and metadata.
+**POPCORN** is a full-featured web application that simulates a real-world streaming platform. It offers a seamless user interface and rich features like authentication, profile management, dynamic content rendering, and simulated checkout processes.
 
-## Features
+It fetches **real-time movie and TV data** using the [TMDB API](https://www.themoviedb.org/documentation/api), providing up-to-date movie information, posters, trailers, and metadata.
 
-- User authentication with login and registration
-- Multi-profile system with profile customization and switching
-- Search functionality for movies and TV shows
-- Dynamic home page with hero banner and categorized carousels
-- Dedicated browse pages for movies, TV shows, and genre-based categories
-- Detail modals with content overview, rating, and user actions
-- Personalized "My List" and "Favorites" with sorting and filtering
-- Subscription plans with tiered options and visual comparison
-- Simulated multi-step checkout with payment method selection
-- Membership and billing history section under account settings
-- Fully responsive design for mobile, tablet, and desktop
+---
 
-## Tech Stack
+## ✨ Features
 
-- **React** – Component-based UI development
-- **Axios** – HTTP client for API requests
-- **Tailwind CSS** – Utility-first styling framework
-- **Framer Motion** – Smooth animations and transitions
-- **MUI (Material UI)** – Pre-built React UI components
-- **Lucide Icons** – Clean, modern icon library
-- **React Router** – SPA routing and navigation
-- **TMDB API** – Source of real movie and TV show data
+- 🔐 **Authentication**: User login & registration
+- 👥 **Multi-Profile System**: Create, edit, and switch between user profiles
+- 🔍 **Advanced Search**: Find movies and TV shows by title or genre
+- 🏠 **Dynamic Home Page**: Includes a hero banner and category sliders
+- 🎬 **Browse Pages**: Explore movies, TV shows, and genre-based categories
+- 📄 **Detail Modals**: Show overviews, ratings, and user actions
+- ❤️ **My List & Favorites**: Save and manage personal content collections
+- 💳 **Subscription Plans**: Simulated plan tiers with visual comparison
+- 🧾 **Checkout Process**: Multi-step simulation with payment method options
+- ⚙️ **Account Settings**: Manage membership and billing history
+- 📱 **Responsive Design**: Works smoothly on all devices
 
+---
 
-=======
-# React + Vite
+## 🛠️ Tech Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+| Technology       | Description                              |
+|------------------|------------------------------------------|
+| **React**        | Component-based UI development           |
+| **Axios**        | API calls to fetch movie & TV data       |
+| **Tailwind CSS** | Utility-first responsive styling         |
+| **Framer Motion**| Animations and page transitions          |
+| **MUI**          | Pre-built UI components (Material Design)|
+| **Lucide Icons** | Lightweight, modern icon set             |
+| **React Router** | SPA routing and navigation               |
+| **TMDB API**     | Real-time movie/TV content               |
+| **Vite**         | Fast development & build tool            |
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 24baf1d (Initial commit of POPCORN streaming platform)
