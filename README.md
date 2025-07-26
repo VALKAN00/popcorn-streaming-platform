@@ -4,7 +4,7 @@ A modern, responsive streaming platform built with **React**, **Axios**, **Tailw
 
 ## 🚀 Live Demo
 
-👉 [Visit Live Site](https://delightful-pasca-08684f.netlify.app/)
+👉 [Visit Live Site](https://scintillating-cendol-c7b88a.netlify.app/)
 
 ---
 
