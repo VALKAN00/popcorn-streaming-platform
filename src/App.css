@@ -1,0 +1,154 @@
+@import "tailwindcss";
+/* The container for the switch */
+.switch { 
+  position: relative; 
+  display: inline-block; 
+  width: 60px; 
+  height: 34px; 
+}
+
+/* Hide the default HTML checkbox */
+.switch input { 
+  opacity: 0; 
+  width: 0; 
+  height: 0; 
+}
+
+/* The track of the slider */
+.slider { 
+  position: absolute; 
+  cursor: pointer; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background-color: #4a5568; /* A medium gray */
+  transition: .4s; 
+}
+
+/* The knob of the slider */
+.slider:before { 
+  position: absolute; 
+  content: ""; 
+  height: 26px; 
+  width: 26px; 
+  left: 4px; 
+  bottom: 4px; 
+  background-color: white; 
+  transition: .4s; 
+}
+
+/* --- The "On" State --- */
+
+/* Change background color of the track when checked */
+input:checked + .slider { 
+  background-color: #e53e3e; /* The brand's red color */
+}
+
+/* Move the knob to the right when checked */
+input:checked + .slider:before { 
+  transform: translateX(26px); 
+}
+
+/* --- Rounded Corners --- */
+
+.slider.round { 
+  border-radius: 34px; 
+}
+
+.slider.round:before { 
+  border-radius: 50%; 
+}
+
+
+/* You can put this in App.css or global.css */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1f1f1f;
+}
+
+
+.slider-content{
+  animation: fadeIn 0.7s ease-in-out;
+  -webkit-animation: fadeIn 0.7s ease-in-out;
+}
+
+.Cat_cards{
+  animation: fadeIn 0.5s ease-in-out;
+  -webkit-animation: fadeIn 0.5s ease-in-out;
+}
+
+.Modal-container {
+  animation: fadeIn 0.4s ease-in-out;
+}
+.Modal-container-close {
+  animation: fadeOut 0.4s ease-in-out;
+}
+
+.MyList-page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.Myfavorites-page {
+  animation: fadeIn 0.5s ease-in-out;
+} 
+
+.CategoryDetailPage {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.ProfilePage {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.Account-Details {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.playback-settings {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.notification-settings {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.sidebar-section {
+  animation: fadeIn 0.5s ease-in-out;
+} 
+
+.login-page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.register-page {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
