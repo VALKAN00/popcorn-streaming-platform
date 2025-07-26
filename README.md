@@ -37,5 +37,4 @@ The platform fetches **real-time movie and TV data** from the [TMDB (The Movie D
 - **React Router** – SPA routing and navigation
 - **TMDB API** – Source of real movie and TV show data
 
-## Project Structure
 
